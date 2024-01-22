@@ -123,8 +123,6 @@ input, select {
   }
 
   header .header-brand {
-    padding-top: 30px;
-    padding-bottom: 50px;
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -133,7 +131,7 @@ input, select {
     margin: 0 auto;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
+    position: static;
   }
 
   header nav {
@@ -181,7 +179,7 @@ input, select {
   .footer_container .logos {
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    width: 20px;
+    width: 10px;
     /* display: ; */
     /* position: fixed; */
   }
@@ -210,11 +208,13 @@ input, select {
     width: 90%
   }
 
+
   .content h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
     line-height: 35px;
     color: #000;
+    text-align: center;
   }
 
   .content h1 {
@@ -226,20 +226,27 @@ input, select {
   }
 
   .home-img {
-    width: 300px;
+    width: 60%;
     /* padding: 30px 30px; */
+    border-radius: 15%;
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px yellow;
   }
 
   /* ABOUT */
 
   .about-img {
-    width: 300px;
-    margin-top: 50px;
-    padding-left: auto;
-    padding-right: auto;
+    align-items: center;
+    width: 60%;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px yellow;
+    border-radius: 15%;
   }
 
   .container h5 {
@@ -486,11 +493,11 @@ input, select {
   }
 
   .container {
-    width: 90%;
+    width: 100%;
     padding-top: 10px;
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    display: static;
+    align-items: center;
+    justify-content: center;
   }
 
   .container h5 {
@@ -521,16 +528,14 @@ input, select {
   .home-img {
     /* padding-right: 100px; */
     /* float: left; */
-    max-width: 300px;
+    max-width: 20%;
     height: fit-content;
   }
 
   /* ABOUT */
 
   .about-img {
-    max-width: 300px;
-    padding-left: 60px;
-    float: right;
+    max-width: 20%;
   }
 
   .content h3 {
@@ -548,6 +553,23 @@ input, select {
     line-height: 25px;
     color: black;
     text-align: justify;
+  }
+
+  .content p ul {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+    text-align: justify;
+    text-align: left;
+  }
+
+  .content li {
+
+    font-size: 15px;
+    line-height: 20px;
+    color: #808080;
+    text-align: left;
   }
 
   .resume-container {
@@ -605,7 +627,7 @@ input, select {
       font-weight: bolder;
       line-height: 50px;
       color: #000;
-      text-align: left;
+      text-align: center;
       padding: 10px 0 10px 0;
     }
 
